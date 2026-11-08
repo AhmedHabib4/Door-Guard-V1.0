@@ -105,7 +105,8 @@ Unit tests and evaluation scripts are provided to ensure pipeline integrity and 
 *   Evaluate open-set facial recognition accuracy: `python eval/eval_faces.py`
 *   Verify camera connectivity: `python src/test_camera.py`
 
-## 👤 Author
-**Ahmed Said Habib (AhmedHabib4)**
-*   [GitHub](https://github.com/AhmedHabib4)
-*   *AI Engineer passionate about edge computing, computer vision, and building practical machine learning systems.*
+## Author
+
+**Ahmed Said Habib** — [@AhmedHabib4](https://github.com/AhmedHabib4) · portfolio project.
+
+Licensed under the [MIT License](https://github.com/AhmedHabib4/Door-Guard-V1.0/blob/main/LICENSE).
