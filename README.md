@@ -57,7 +57,7 @@ Unlike off-the-shelf cloud solutions, this project ensures 100% data privacy by 
 
 ## 📂 Repository Structure
 ```text
-door_ai/
+door_guard_ai/
 ├── config.yaml             # Camera URLs, zones, thresholds, and rules
 ├── .env                    # Secrets: Telegram token/chat ID
 ├── dataset/                # Baseline photo enrollment directories
