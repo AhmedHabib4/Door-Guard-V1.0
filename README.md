@@ -1,12 +1,23 @@
-# Door Guard V1.0 🚪🛡️
+<div align="center">
 
-**An End-to-End AI-Powered Face Recognition & Home Security System**
+# Door Guard — AI Face Recognition
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-CPU-ee4c2c)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Object_Detection-yellow)
-![FastAPI](https://img.shields.io/badge/FastAPI-Dashboard-00a67d)
-![License](https://img.shields.io/badge/License-MIT-green)
+**A Complete End-to-End Real-Time Home Security System on CPU-Only Hardware**
+
+*Continuous RTSP stream processing, custom dataset generation, and ArcFace multi-frame voting logic.*
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![CV](https://img.shields.io/badge/CV-OpenCV-green?logo=opencv&logoColor=white)
+![ML](https://img.shields.io/badge/ML-YOLOv8-orange)
+![Framework](https://img.shields.io/badge/framework-PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Database](https://img.shields.io/badge/database-SQLite-003B57?logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+![Status](https://img.shields.io/badge/status-portfolio_project-E05D44)
+
+---
+</div>
 
 ## 📖 Overview
 **Door Guard V1.0** is a complete, self-hosted, CPU-optimized smart security pipeline designed to run 24/7 on older hardware (e.g., an old laptop). It processes multiple RTSP camera streams in near real-time, records continuous footage, and utilizes a cascade of AI models to detect motion, identify vehicles, and recognize faces. 
