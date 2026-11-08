@@ -105,10 +105,10 @@ door_guard_ai/
    uvicorn src.dashboard:app --host 0.0.0.0 --port 8000
    ```
 
-## 📚 Documentation
-For deeper technical insights into how the custom datasets were built and how the PyTorch models were trained, please review:
-*   [Data Card](docs/DATA_CARD.md): Information on video splits, labeling methodology, and privacy.
-*   [Model Card](docs/MODEL_CARD.md): Metrics, FRR/FAR trade-offs, and known edge-case failures.
+## 📊 Documentation & Testing
+* **Full Build Guide:** For a complete, step-by-step breakdown of the architecture, training phases, and hardware setup, refer to the included [Door_Guard_Guide_New_Edition_2.pdf](./Door_Guard_Guide_New_Edition_2.pdf).
+* **Evaluation:** Run `python eval/eval_faces.py` against a dedicated test set to compute the optimal cosine similarity threshold where FAR < 1%.
+* **Unit Testing:** The `tests/` directory contains isolated tests for the line-crossing mathematical logic, cooldown timers, and the centroid tracking logic to ensure pipeline stability before deployment.
 
 ## 🧪 Testing
 Unit tests and evaluation scripts are provided to ensure pipeline integrity and model accuracy:
