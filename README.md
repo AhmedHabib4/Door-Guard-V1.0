@@ -106,7 +106,7 @@ door_guard_ai/
    ```
 
 ## 📊 Documentation & Testing
-* **Full Build Guide:** For a complete, step-by-step breakdown of the architecture, training phases, and hardware setup, refer to the included [Door_Guard_Guide_New_Edition_2.pdf](./Door_Guard_Guide_New_Edition_2.pdf).
+* **Full Build Guide:** For a complete, step-by-step breakdown of the architecture, training phases, and hardware setup, refer to the included [Door Guard Guide](Door_Guard_Guide_New_Edition.pdf).
 * **Evaluation:** Run `python eval/eval_faces.py` against a dedicated test set to compute the optimal cosine similarity threshold where FAR < 1%.
 * **Unit Testing:** The `tests/` directory contains isolated tests for the line-crossing mathematical logic, cooldown timers, and the centroid tracking logic to ensure pipeline stability before deployment.
 
